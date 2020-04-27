@@ -11,6 +11,8 @@ def game_hash
           player_name: "Alan Anderson",
           number: 0,
           shoe: 16,
+          # according to earlier "best method" ideals, I believe :number and :shoe should
+          # have a string value, as these are not likely to be needed for math/change. 
           points: 22,
           rebounds: 12,
           assists: 12, 
@@ -21,8 +23,8 @@ def game_hash
         },
         {
           player_name: "Reggie Evans",
-          number: "30",
-          shoe: "14",
+          number: 30,
+          shoe: 14,
           points: 12,
           rebounds: 12,
           assists: 12,
@@ -32,8 +34,8 @@ def game_hash
         },
         {
           player_name: "Brook Lopez",
-          number: "11",
-          shoe: "17",
+          number: 11,
+          shoe: 17,
           points: 17,
           rebounds: 19,
           assists: 10,
@@ -43,8 +45,8 @@ def game_hash
         },
         {
           player_name: "Mason Plumlee",
-          number: "1",
-          shoe: "19",
+          number: 1,
+          shoe: 19,
           points: 26,
           rebounds: 11,
           assists: 6,
@@ -54,8 +56,8 @@ def game_hash
         },
         {
           player_name: "Jason Terry",
-          number: "19",
-          shoe: "15",
+          number: 19,
+          shoe: 15,
           points: 19,
           rebounds: 2,
           assists: 2,
@@ -68,7 +70,7 @@ def game_hash
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turquoise", "Purple"],
-      players: {
+      players: [
         "Jeff Adrien" => {
           player_name: "Jeff Adrien",
           number: "4",
@@ -80,7 +82,7 @@ def game_hash
           blocks: 7,
           slam_dunks: 2
         }
-      }
+      ]
     }
   }
 end
