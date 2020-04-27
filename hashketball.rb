@@ -12,7 +12,8 @@ def game_hash
           number: 0,
           shoe: 16,
           # according to earlier "best method" ideals, I believe :number and :shoe should
-          # have a string value, as these are not likely to be needed for math/change. 
+          # have a string value, as these are not likely to be needed for math/integer interaction. 
+          #Need to check back into that lesson. 
           points: 22,
           rebounds: 12,
           assists: 12, 
