@@ -19,7 +19,6 @@ def game_hash
           steals: 3,
           blocks: 1,
           slam_dunks: 1
-          #different format testing if change in result 
         },
         {
           player_name: "Reggie Evans",
@@ -130,9 +129,4 @@ def game_hash
     }
   }
 end
-
-#game_hash; 
-#game_hash[:home][:players].map { |player| binding.pry }; 
-#binding.pry;
-
 
