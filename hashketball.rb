@@ -86,7 +86,7 @@ def game_hash
 end
 
 #game_hash; 
-game_hash[:home][:players].map { |player| binding.pry }; 
+#game_hash[:home][:players].map { |player| binding.pry }; 
 #binding.pry;
 
 
